@@ -617,9 +617,15 @@
     #customer .lowerpart{
         flex-direction: column;
     }
+    .customer-imgcard .customer-top {
+            display: flex;
+            align-items: center;
+    }
+
     .customer-line img{
         width: 50%;
         margin-left: 50px;
+        display:  none;
     }
     #faq .faq-container{
         width: 79%;
@@ -654,6 +660,23 @@
     #main-footer .footer-right{
         width: 90%;
     }
+    .road-assistance{
+        width: 30%;
+    }
+    .main-header {
+            padding: 20px 0px 20px;
+    }
+        .road-assistance img {
+            width: 100%;
+        }
+                .customer-line {
+                    width: 61%;
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: space-between;
+                    display: none;
+                }
 }
 /* responsiveness tablet */
 @media(max-width: 769px){
@@ -1159,6 +1182,6 @@
 @media(max-width: 1025px) {
     .diagnostic-left .diagnostic-left-frame p {
             margin: 10px 0;
-            font-size: 14px;
+            font-size: 22px;
         }
 }
